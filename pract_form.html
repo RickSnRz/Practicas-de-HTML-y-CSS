@@ -1,0 +1,41 @@
+<!--Segunda Practica
+Realizar un formulario donde haiga un nombre de usuario
+y una contraseña, aplicar un botom para el login. El 
+boton login puede tener una url de su eleccion.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Practica</title>
+</head>
+<body>
+    <h1>Login Formulario</h1><!--Poniendo titulo al formulario-->
+    <div><!--Con este div separo mi formulario del restro de la pagina-->
+        <form action="https://www.google.com/"><!--Pon el from que va ser el formulario con el action lo agrego un url-->
+            <div id="name"><!--Con el div lo estoy separando mi formulario en partes y lo pongo id para diferencialos-->
+                <label for="task_name">Nombre de Usuario: <br></label><!--Con el label pongo un texto a la pagina-->
+                <input type="text" id="task_name" name="task_name"><!--Creo un input de tipo texto lo agrego un id y lo doy un nombre-->
+            </div>
+            <div id="password">
+                <label for="task_password">Password: <br></label>
+                <input type="password" id="task_password" name="task_password"><!--Lo unico que cambia de este input es el tipo que pasa ser contraseña-->
+            </div>
+            <div class="button"><br>
+                <input type="submit"><!--De mismo modo aca pasa ser submit que vendria ser un boton para enviar-->
+            </div>
+        </form>
+    </div>
+    
+</body>
+<footer><!--El footer viene ser como el pie de pagina en este lado pondre mis links para que mis paginas esten cononectados-->
+    <div><br>
+        <a href="pract_css.html">Opcion 2</a>
+        <a href="Pract_registro.html">Opcion 3</a>
+        <a href="index.html">Menu</a>
+    </div>
+</footer>
+</html>

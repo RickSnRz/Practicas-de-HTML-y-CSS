@@ -1,0 +1,68 @@
+<!--Practica final
+Es crear un formulario de regristro donde los campos inputs
+sean obligatorios de llenar y que los inputs este con un
+estilo echo en css-->
+<!--Lo unico que cambia seria solo el required en los input esto
+lo que logra es ser el campo obligario de llenarlo.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Registro</title>
+    <link rel="stylesheet" href="estilo3.css">
+</head>
+<body>
+    <div><h1>Registrar</h1></div>
+    <div>
+        <form action="https://www.google.com/">
+            <div id="name_User">
+                <label for="task_name_User">Nombre de Usuario:</label>
+                <input type="text" id="task_name_User" name="task_name_User" required>
+            </div>
+            <div id="name"><br>
+                <label for="task_name">Nombre:</label>
+                <input type="text" id="task_name" name="task_name" required>
+            </div>
+            <div id="apell"><br>
+                <label for="task_apell">Apellido:</label>
+                <input type="text" id="task_apell" name="task_apell" required>
+            </div>
+            <div id="pass"><br>
+                <label for="task_pass">Password:</label>
+                <input type="password" id="task_pass" name="task_pass" required>
+            </div>
+            <div id="sex"><br>
+                <label for="task_sex">Sexo:</label>
+                <input type="checkbox" id="task_sex" name="task_sex" value="m">
+                <label for="task_sex">Masculino</label>
+
+                <input type="checkbox" id="task_sex" name="task_sex" value="f">
+                <label for="task_sex">Femenino</label>
+
+                <input type="checkbox" id="task_sex" name="task_sex" value="o">
+                <label for="task_sex">Otro</label>
+            </div>
+            <div id="fecha"><br>
+                <label for="task_fecha">Fecha de Nacimiento:</label>
+                <input type="date" id="task_fecha" name="task_fecha">
+            </div>
+            <div id="color"><br>
+                <label for="task_color">Color Favorito:</label>
+                <input type="color" id="task_color" name="task_color">
+            </div>
+            <div id="button"><br>
+                <button type="submit">Guardar</button>
+            </div>
+        </form>
+    </div>
+</body>
+<footer>
+    <div><br>
+        <a href="pract_form.html">Opcion 1</a>
+        <a href="pract_css.html">Opcion 2</a>
+        <a href="index.html">Menu</a>
+    </div>
+</footer>
+</html>

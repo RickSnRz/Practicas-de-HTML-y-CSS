@@ -1,0 +1,47 @@
+section {
+    background-color: gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+article {
+    background-color: lime;
+    width: 300px;
+    height: 100px;
+    margin: 8px;
+    padding: 8px;
+    color: brown;
+}
+
+#s1 article{
+    float: right;
+}
+
+#s1 { 
+    overflow: hidden;
+}
+
+h1{
+    color: red;
+    background-color: ghostwhite;
+    width: 450px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+/*lo que hace hover es cada vez que mouse pase por ahi
+se aplicara los cambios puestos*/
+h1:hover{
+    color: blue;
+    background-color: ghostwhite;
+    width: 450px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+}

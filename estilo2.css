@@ -1,0 +1,32 @@
+/*Estoy aclarando a mi tabla en general que tenga
+el siguiente contraste de borde con el texto en 
+auto y centrado aparte estoy dando una anchura de 
+400 pixeles y una altura de 100 pixeles*/
+table {
+    border-collapse: collapse;
+    caption-side: top;
+    table-layout: auto;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+}
+
+/*Estoy aclarando a mi id th1 que tenga el siguiente 
+color de borde y el background que viene ser el fondo
+que se de color maron*/
+#th1 {
+  border-color: black;
+  font-weight: bolder;
+  font-size: larger;
+  background-color: brown;
+}
+
+#tb1 {
+    border-color: black;
+    background-color: violet;
+}
+
+#tb2 {
+    border-color: black;
+    background-color: blueviolet;
+}

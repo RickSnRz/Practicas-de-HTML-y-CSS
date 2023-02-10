@@ -1,0 +1,16 @@
+/*Lo que estoy haciendo en con invalid es que me agarre
+todos los input que no este validos poniendo un borde
+y colo de borde a su ver cuando se pone invalid:required 
+estoy agarrando todos los campos input que tiene un required
+poniendo un background con una paleta de colores*/
+input:invalid {
+    border: 2px double black;
+  }
+
+  input:invalid:required {
+    background-image: linear-gradient(to right, skyblue, LightBlue);
+  }
+  
+  input:valid {
+    border: 2px solid black;
+  }
